@@ -17,8 +17,10 @@ The MechaCar Analysis is conducted using RScrips. The data retrieved from MechaC
 		- using lm() and summary() functions to create the coefficients for each variable. 
 		- created 3D plots.
 		- the results are: 
+
  
-![] lm_Summary.PNG
+![]lm_Summary.PNG
+
 
 		- Which variables/coefficients provided a non-random amount of variance to the mpg values in the dataset? 
 			- From the above summary output each Pr(>|t|) value represents the probability that each coefficient contributes a random of variance to the linear model. 
@@ -34,7 +36,9 @@ The MechaCar Analysis is conducted using RScrips. The data retrieved from MechaC
 	- Does the current manufacturing data meet this design specification? Why or why not?
 		- Yes, the current manufacturing data meet the design specification as the variance is less that 100 pounds per inch. 
 
-![] Summary_Statistics.PNG
+
+![]Summary_Statistics.PNG
+
 
 ### Perform a t-test in R and provide interpretation of results.
 	- Using the suspension_coil.csv data performed t.test() analysis to determine if the suspension coil’s pound-per-inch results are statistically different from the mean population results of 1,500 pounds per inch.
@@ -42,7 +46,9 @@ The MechaCar Analysis is conducted using RScrips. The data retrieved from MechaC
 	- The p-value = 0.06028 which is greater that the significance level of 0.05, thus there is not duffivient evidence to reject the null hypothesis. 
 	- the suspension coil’s pound-per-inch results are statistically similar from the mean population results of 1,500 pounds per inch.
 
-![] t_test_summary.PNG
+
+![]t_test_summary.PNG
+
 
 ### Design statistical study to compare vehicle performance of two vehicles.
 	- Further analysis can be performed to compare the performance of the MechaCar prototype to other comparable vehicles on the market. 
