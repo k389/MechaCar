@@ -18,9 +18,7 @@ The MechaCar Analysis is conducted using RScrips. The data retrieved from MechaC
 		- created 3D plots.
 		- the results are: 
 
- 
-![](lm_Summary.PNG)
-
+ ![](lm_Summary.PNG)
 
 		- Which variables/coefficients provided a non-random amount of variance to the mpg values in the dataset? 
 			- From the above summary output each Pr(>|t|) value represents the probability that each coefficient contributes a random of variance to the linear model. 
@@ -29,6 +27,12 @@ The MechaCar Analysis is conducted using RScrips. The data retrieved from MechaC
 			- According to the summary the p-value is small (2.277e-11) which is above 0.05, shows significant linear relationship between mpg and other valiables, thus we the slope is not equal to zero
 		- Does this linear model predict mpg of MechaCar prototypes effectively? Why or why not?
 			- No, this linear model does not predict mpg of MechaCar prototypes effectively as even if it works well with current dataset but will not generalize and predict future data correctly.
+
+
+![](Rplot.png)
+![](Rplot01.png)
+![](Rplot02.png)
+
 
 ### Calculate a summary statistics for quantitative variables using suspension_coil.csv data.
 	- Using summary(), sd() and var() calculated the summary statistics for the suspension coil's pounds-per-inch continuous variable.
