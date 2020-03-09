@@ -28,7 +28,7 @@ The MechaCar Analysis is conducted using RScrips. The data retrieved from MechaC
 		- Does this linear model predict mpg of MechaCar prototypes effectively? Why or why not?
 			- No, this linear model does not predict mpg of MechaCar prototypes effectively as even if it works well with current dataset but will not generalize and predict future data correctly.
 
-###Calculate a summary statistics for quantitative variables using suspension_coil.csv data.
+### Calculate a summary statistics for quantitative variables using suspension_coil.csv data.
 	- Using summary(), sd() and var() calculated the summary statistics for the suspension coil's pounds-per-inch continuous variable.
 	- The summary statistics is below with mean of 1499, median of 1500, standard deviation of 7.89 and variance of 62.29.
 	- Does the current manufacturing data meet this design specification? Why or why not?
@@ -36,7 +36,7 @@ The MechaCar Analysis is conducted using RScrips. The data retrieved from MechaC
 
 ![] Summary_Statistics.PNG
 
-###Perform a t-test in R and provide interpretation of results.
+### Perform a t-test in R and provide interpretation of results.
 	- Using the suspension_coil.csv data performed t.test() analysis to determine if the suspension coil’s pound-per-inch results are statistically different from the mean population results of 1,500 pounds per inch.
 	- Below is the t.test() summary. 
 	- The p-value = 0.06028 which is greater that the significance level of 0.05, thus there is not duffivient evidence to reject the null hypothesis. 
@@ -44,7 +44,7 @@ The MechaCar Analysis is conducted using RScrips. The data retrieved from MechaC
 
 ![] t_test_summary.PNG
 
-###Design statistical study to compare vehicle performance of two vehicles.
+### Design statistical study to compare vehicle performance of two vehicles.
 	- Further analysis can be performed to compare the performance of the MechaCar prototype to other comparable vehicles on the market. 
 	- We can compare the vehicle performance by comparing fuel efficiency and mpg of both type of vehicles by using Two-Sample t-Test.
 	- Our hypothesis is:
