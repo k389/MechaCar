@@ -19,7 +19,7 @@ The MechaCar Analysis is conducted using RScrips. The data retrieved from MechaC
 		- the results are: 
 
  
-![]lm_Summary.PNG
+![](lm_Summary.PNG)
 
 
 		- Which variables/coefficients provided a non-random amount of variance to the mpg values in the dataset? 
@@ -37,7 +37,7 @@ The MechaCar Analysis is conducted using RScrips. The data retrieved from MechaC
 		- Yes, the current manufacturing data meet the design specification as the variance is less that 100 pounds per inch. 
 
 
-![]Summary_Statistics.PNG
+![](Summary_Statistics.PNG)
 
 
 ### Perform a t-test in R and provide interpretation of results.
@@ -47,7 +47,7 @@ The MechaCar Analysis is conducted using RScrips. The data retrieved from MechaC
 	- the suspension coil’s pound-per-inch results are statistically similar from the mean population results of 1,500 pounds per inch.
 
 
-![]t_test_summary.PNG
+![](t_test_summary.PNG)
 
 
 ### Design statistical study to compare vehicle performance of two vehicles.
